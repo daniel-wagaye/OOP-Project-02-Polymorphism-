@@ -7,7 +7,7 @@ import zoo.pets.GuardDog;
 public class Main {
     public static void main(String[] args) {
         Dog d1 = new Dog("Rokcy", 4, "German Shepherd");
-        GuardDog gd = new GuardDog("Mxa", 6, "Belgian Malinois", "Front Gate");
+        GuardDog gd = new GuardDog("Mx", 6, "Belgian Malinois", "Front Gate");
         Cat c1 = new Cat("Millo", 2);
 
         System.out.println("Base and child class");
