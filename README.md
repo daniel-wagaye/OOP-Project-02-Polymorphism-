@@ -1,4 +1,4 @@
-# oop mini project 2
+# oop mini project 2 (polymorphism)
 
 this code is about a small animal system. "Animal" is the main base class. it stores the name, category, and age of the animal and has the basic methods that print the animal info, sound, and movement. it also has a final method and a static method.
 
@@ -8,4 +8,3 @@ this code is about a small animal system. "Animal" is the main base class. it st
 
 "VetReport" is a final class and it has overloaded methods to print animal details in two ways, so it shows compile time polymorphism too. "Trainable" is used as an interface because java does not allow one class to extend two classes.
 
-to run the code i used "javac Main.java zoo\base\Animal.java zoo\pets\Dog.java zoo\pets\GuardDog.java zoo\pets\Cat.java zoo\helpers\VetReport.java zoo\skills\Trainable.java" and after that i used "java Main".
